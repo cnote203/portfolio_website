@@ -48,9 +48,21 @@ export function WorkTimeline() {
     },
     {
       startDate: new Date(2024, 8, 1), // September 2024
-      endDate: null, // Today
+      endDate: new Date(2025, 3, 1), // April 2025
       type: "part-time",
-      label: "Sep 2024 - Present",
+      label: "Sep 2024 - April 2025",
+    },
+    {
+      startDate: new Date(2025, 4, 1), // May 2025
+      endDate: new Date(2025, 8, 1), // Sept 2025
+      type: "full-time",
+      label: "May 2025 - Sep 2025",
+    },
+    {
+      startDate: new Date(2025, 9, 1), // October 2025
+      endDate: null, //Present
+      type: "part-time",
+      label: "Oct 2025 - Present",
     },
   ]
 

@@ -180,9 +180,9 @@ export function WorkContributionGraph() {
     return Math.ceil((dayOfMonth + firstDayOfMonth.getDay()) / 7)
   }
 
-  // Generate weeks for 4 years (2022 to 2025)
+  // Generate weeks for 5 years (2022 to 2026)
   const generateWeeks = () => {
-    const years = [2022, 2023, 2024, 2025]
+    const years = [2022, 2023, 2024, 2025, 2026]
     const weeksPerYear = 52
 
     return years.map((year) => {

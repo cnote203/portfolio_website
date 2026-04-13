@@ -71,7 +71,7 @@ export function WorkContributionGraph() {
     },
     {
       startDate: new Date(2025, 9, 1), // Oct 1, 2025
-      endDate: new Date(2025, 11, 1), // Jan 1, 2025
+      endDate: new Date(2025, 11, 1), // December 1, 2025
       type: "part-time",
       employer: "CAF", // Canadian Armed Forces
     },

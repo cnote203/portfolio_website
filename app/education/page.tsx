@@ -77,6 +77,9 @@ const courses: Record<string, Course[]> = {
     { code: "MCG 4128", name: "Basic Nuclear Engineering", category: "Mechanical Engineering", units: 3 },
     { code: "MCG 4152", name: "Artificial Organs", category: "Mechanical Engineering", units: 3 },
     { code: "MCG 4328", name: "Manufacturing", category: "Mechanical Engineering", units: 3 },
+    { code: "MCG4151", name: "Design of Artifical Joint Prostheses and Implants", category: "Mechanical Engineering", units: 3 },
+    { code: "MCG 4308", name: "Mechanical Vibration Analysis", category: "Mechanical Engineering", units: 3 },
+    { code: "MCG 4340", name: "Mechanical Engineering Lab", category: "Mechanical Engineering", units: 3 },
   ],
   "Electronics & Computing": [
     {
@@ -98,6 +101,7 @@ const courses: Record<string, Course[]> = {
   ],
   "Humanities & Social Sciences": [
     { code: "ECO 1104", name: "Introduction to Microeconomics", category: "Humanities & Social Sciences", units: 3 },
+    { code: "ECO 1102", name: "Introduction to Macroeconomics", category: "Humanities & Social Sciences", units: 3 },
     { code: "ENG 1112", name: "Technical Report Writing", category: "Humanities & Social Sciences", units: 3 },
     { code: "PHI 1101", name: "Reasoning and Critical Thinking", category: "Humanities & Social Sciences", units: 3 },
     {

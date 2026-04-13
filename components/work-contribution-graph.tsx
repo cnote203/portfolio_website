@@ -65,9 +65,21 @@ export function WorkContributionGraph() {
     },
     {
       startDate: new Date(2025, 4, 1), // May 1, 2025
-      endDate: null, // Today
+      endDate: new Date(2025, 8, 1), // Sept 1, 2025
       type: "full-time",
-      employer: "DND", // Department of National Defence
+      employer: "CAF", // Canadian Armed Forces
+    },
+    {
+      startDate: new Date(2025, 9, 1), // Oct 1, 2025
+      endDate: new Date(2025, 12, 1), // Jan 1, 2025
+      type: "part-time",
+      employer: "CAF", // Canadian Armed Forces
+    },
+    {
+      startDate: new Date(2026, 0, 1), // Jan 1, 2026
+      endDate: null, // Present
+      type: "part-time",
+      employer: "DND", // Canadian Armed Forces
     },
   ]
 

@@ -17,24 +17,30 @@ export default function ExperiencePage() {
             <CardHeader>
               <div className="flex justify-between items-start">
                 <div>
-                  <CardTitle>Student Data Engineer</CardTitle>
-                  <CardDescription>Department of National Defence, Digital Product Delivery Centre</CardDescription>
+                  <CardTitle>Technical Authority Assistant</CardTitle>
+                  <CardDescription>Department of National Defence</CardDescription>
                 </div>
                 <Badge>Current</Badge>
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground mb-4">May 2025 - Present | Reliability Security Clearance</p>
+              <p className="text-sm text-muted-foreground mb-4">January 2026 - Present | Enhanced Reliability Security Clearance</p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>
-                  Leveraging AWS services, Power BI and Azure DevOps to develop applications and Digital tools for
-                  military at civilian personel at National Defence
+                  Authored 20+ standards-aligned procurement requirement documents and engineering specifications for
+                  CAF land equipment — including armoured vehicles and jet refuellers — directly informing acquisitions
+                  valued between $100K-$1M per contract under DGLEPM Technical Authority review
+                </li>
+                <li>
+                  Conducted 3 on-site facility inspections of defence manufacturing and deployment environments, directly
+                  informing procurement documentation with first-hand technical observations of armoured vehicle and
+                  ammunition magazine production
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-4">
-                <Badge variant="outline">AWS</Badge>
-                <Badge variant="outline">Power BI</Badge>
-                <Badge variant="outline">Azure DevOps</Badge>
+                <Badge variant="outline">Procurement</Badge>
+                <Badge variant="outline">Engineering Specifications</Badge>
+                <Badge variant="outline">Technical Documentation</Badge>
               </div>
             </CardContent>
           </Card>
@@ -43,30 +49,65 @@ export default function ExperiencePage() {
             <CardHeader>
               <div className="flex justify-between items-start">
                 <div>
-                  <CardTitle>Student Risk Analyst</CardTitle>
-                  <CardDescription>Transport Canada, Transportation of Dangerous Goods</CardDescription>
+                  <CardTitle>Data Analyst CO-OP</CardTitle>
+                  <CardDescription>Canadian Armed Forces</CardDescription>
                 </div>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                May 2024 - April 2025 | Reliability Security Clearance
+                May 2025 - January 2026 | Enhanced Reliability Security Clearance
               </p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Developing an automated Risk Metric Dashboard using the databricks eBIDA Platform</li>
                 <li>
-                  Aiding the development of a quantitative risk assessment by road application for the transport of
-                  hydrogen
+                  Delivered data applications and digital tools actively used by 500+ military and civilian DND personnel,
+                  built across AWS Services, Power BI, and Azure DevOps
                 </li>
                 <li>
-                  Working with geospatial data frames to compute risk pertaining to surrounding infrastructure should an
-                  incident occur
+                  Architected AWS-based data pipelines supporting 3 active flight and ground test programs, automating
+                  ingestion and transformation of aerospace test data to eliminate manual handling and improve cross-team
+                  data reliability for tens of GBs per ingestion cycle
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <Badge variant="outline">AWS</Badge>
+                <Badge variant="outline">Power BI</Badge>
+                <Badge variant="outline">Azure DevOps</Badge>
+                <Badge variant="outline">Data Pipelines</Badge>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <div className="flex justify-between items-start">
+                <div>
+                  <CardTitle>Risk Analyst CO-OP</CardTitle>
+                  <CardDescription>Transport Canada</CardDescription>
+                </div>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-muted-foreground mb-4">
+                May 2024 - May 2025 | Enhanced Reliability Security Clearance
+              </p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>
+                  Engineered an automated Risk Metric dashboard modeling three hydrogen and crude oil transport hazard
+                  scenarios — Fireball, BLEVE, and Vapour Cloud Explosion — by replacing manual data retrieval with robust
+                  automated source connections, reducing analyst reporting time by ~15%
+                </li>
+                <li>
+                  Applied fluid dynamics, heat transfer principles, and geospatial analysis to model hazard zones and
+                  infrastructure impact corridors across a trans-provincial corridor spanning Edmonton to Vancouver,
+                  focused on crude oil and hydrogen transport risk
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-4">
                 <Badge variant="outline">Risk Analysis</Badge>
+                <Badge variant="outline">Fluid Dynamics</Badge>
+                <Badge variant="outline">Geospatial Analysis</Badge>
                 <Badge variant="outline">Data Visualization</Badge>
-                <Badge variant="outline">Geospatial Data</Badge>
               </div>
             </CardContent>
           </Card>
@@ -78,71 +119,84 @@ export default function ExperiencePage() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                January 2024 - April 2024 | Reliability Security Clearance
+                January 2024 - May 2024 | Enhanced Reliability Security Clearance
               </p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Developed a dynamic Sharepoint site for the Integrity Services Branch</li>
                 <li>
-                  Implemented Power Automate cloud flows and developed Power Applications for directors and employees
+                  Designed and deployed a modernized SharePoint environment for the Integrity Services Branch, replacing
+                  a legacy system with a feature-current platform serving branch management and improving document
+                  traceability and access control
                 </li>
-                <li>Created an Automated PTO Cloud flow and a dynamic Search Query Tool</li>
+                <li>
+                  Conducted stakeholder and requirements analysis across branch operations, consolidating 5+ operational
+                  workflows into structured, access-controlled information subsystems — improving process traceability and
+                  reducing operational handoff ambiguity
+                </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-4">
                 <Badge variant="outline">SharePoint</Badge>
-                <Badge variant="outline">Power Automate</Badge>
-                <Badge variant="outline">Power Apps</Badge>
+                <Badge variant="outline">Requirements Analysis</Badge>
+                <Badge variant="outline">Process Optimization</Badge>
               </div>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle>Student IT Automation Specialist</CardTitle>
+              <CardTitle>IT Automation CO-OP</CardTitle>
               <CardDescription>Indigenous Services Canada</CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                May 2023 - December 2023 | Reliability Security Clearance
+                May 2023 - January 2024 | Enhanced Reliability Security Clearance
               </p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Developed an automated device tracking system using Power Automate for perfect asset tracking</li>
-                <li>Created the "Excel Clinic" to foster cross-departmental collaboration and drive efficiency</li>
-                <li>Reduced response time for technical inquiries from 6.2 days to 3.0 days</li>
                 <li>
-                  Developed an IT Help desk Power agent and designed a front desk web application for walk-in
-                  appointments
+                  Built a Python-based automated device tracking system processing 100+ daily deployment tickets,
+                  eliminating manual tracking errors and ensuring real-time asset visibility at scale
                 </li>
-                <li>Used Auto-CAD to plan out board room installations when working with the Audio Visual Team</li>
+                <li>
+                  Founded the &quot;Excel Clinic&quot; to foster cross-departmental collaboration by leveraging Excel&apos;s and Python&apos;s
+                  automation capabilities, slashing the time for formatting budget documents and decreasing the response time
+                  for technical inquiries from 6.2 days to 3.0 days
+                </li>
+                <li>
+                  Deployed a Power Platform help desk agent as a front-desk web application, streamlining scheduling for
+                  an average of 25 daily walk-in appointments and reducing front-desk administrative load; additionally
+                  used AutoCAD to support boardroom equipment layout planning
+                </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-4">
-                <Badge variant="outline">Automation</Badge>
-                <Badge variant="outline">Excel</Badge>
                 <Badge variant="outline">Python</Badge>
-                <Badge variant="outline">Auto-CAD</Badge>
-                <Badge variant="outline">Web Development</Badge>
+                <Badge variant="outline">Automation</Badge>
+                <Badge variant="outline">Power Platform</Badge>
+                <Badge variant="outline">AutoCAD</Badge>
               </div>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle>Biomedical Engineering Student</CardTitle>
+              <CardTitle>Biomedical Engineering CO-OP</CardTitle>
               <CardDescription>The Ottawa Hospital, Biomedical Engineering Department</CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">May 2022 - September 2022</p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Implemented a cutting-edge ranked capital development project using Power BI</li>
-                <li>Streamlined data queries and developed presentations for quarterly budget determinations</li>
-                <li>Reduced wait times for Preventative Maintenance by nearly 30%</li>
-                <li>Saved an estimated $150,000 year over year</li>
-                <li>Participated in 3D printing lab, working with physicians and engineers</li>
-                <li>Aided in designing and printing an artificial pulmonary valve using Solidworks Flow Simulations</li>
+                <li>
+                  Designed and implemented a ranked capital development program employing Power BI to automate data
+                  queries and streamline preventative maintenance schedules across medical assets — reducing infant
+                  incubator maintenance wait-time by 30%
+                </li>
+                <li>
+                  Collaborated with physicians and engineers to design and fabricate a patient-specific artificial pulmonary
+                  valve using SolidWorks&apos; flow simulation and 3D printing
+                </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-4">
                 <Badge variant="outline">Power BI</Badge>
                 <Badge variant="outline">3D Printing</Badge>
-                <Badge variant="outline">Solidworks</Badge>
+                <Badge variant="outline">SolidWorks</Badge>
                 <Badge variant="outline">Flow Simulation</Badge>
               </div>
             </CardContent>

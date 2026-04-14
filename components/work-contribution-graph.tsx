@@ -65,9 +65,21 @@ export function WorkContributionGraph() {
     },
     {
       startDate: new Date(2025, 4, 1), // May 1, 2025
-      endDate: null, // Today
+      endDate: new Date(2025, 8, 1), // Sept 1, 2025
       type: "full-time",
-      employer: "DND", // Department of National Defence
+      employer: "CAF", // Canadian Armed Forces
+    },
+    {
+      startDate: new Date(2025, 9, 1), // Oct 1, 2025
+      endDate: new Date(2025, 11, 1), // December 1, 2025
+      type: "part-time",
+      employer: "CAF", // Canadian Armed Forces
+    },
+    {
+      startDate: new Date(2026, 0, 1), // Jan 1, 2026
+      endDate: null, // Present
+      type: "part-time",
+      employer: "DND", // Canadian Armed Forces
     },
   ]
 
@@ -168,9 +180,9 @@ export function WorkContributionGraph() {
     return Math.ceil((dayOfMonth + firstDayOfMonth.getDay()) / 7)
   }
 
-  // Generate weeks for 4 years (2022 to 2025)
+  // Generate weeks for 5 years (2022 to 2026)
   const generateWeeks = () => {
-    const years = [2022, 2023, 2024, 2025]
+    const years = [2022, 2023, 2024, 2025, 2026]
     const weeksPerYear = 52
 
     return years.map((year) => {

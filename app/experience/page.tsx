@@ -17,19 +17,20 @@ export default function ExperiencePage() {
             <CardHeader>
               <div className="flex justify-between items-start">
                 <div>
-                  <CardTitle>Technical Authority Assistant</CardTitle>
-                  <CardDescription>Department of National Defence</CardDescription>
+                  <CardTitle>Engineering Procurement Officer</CardTitle>
+                  <CardDescription>National Defence — DSTARS 6, ADM(Mat)</CardDescription>
                 </div>
                 <Badge>Current</Badge>
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground mb-4">January 2026 - Present | Enhanced Reliability Security Clearance</p>
+              <p className="text-sm text-muted-foreground mb-4">July 2026 - Present | Enhanced Reliability Security Clearance</p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>
-                  Authored 20+ standards-aligned procurement requirement documents and engineering specifications for
-                  CAF land equipment — including armoured vehicles and jet refuellers — directly informing acquisitions
-                  valued between $100K-$1M per contract under DGLEPM Technical Authority review
+                  Reviewed vendor CAD documentation and engineering submissions for CAF support vehicle programs using CATIA,
+                  verifying compliance with technical specifications, procurement requirements, and applicable defence standards.
+                  Drafted procurement specifications and engineering requirements for 10 capital equipment programs,
+                  ranging from $100,000 to $2M budgets, and produced technical compliance reports.
                 </li>
                 <li>
                   Conducted 3 on-site facility inspections of defence manufacturing and deployment environments, directly
@@ -56,7 +57,7 @@ export default function ExperiencePage() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                May 2025 - January 2026 | Enhanced Reliability Security Clearance
+                May 2025 - June 2026 | Enhanced Reliability Security Clearance
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li>

@@ -159,7 +159,7 @@ export default function EducationPage() {
                 <CardTitle className="text-2xl mb-2">University of Ottawa</CardTitle>
                 <div className="flex flex-col md:flex-row md:items-center gap-2">
                   <p className="text-lg font-medium">BASc Biomedical Mechanical Engineering</p>
-                  <p className="text-muted-foreground">September 2020 - April 2026 (Expected)</p>
+                  <p className="text-muted-foreground">September 2020 - April 2026</p>
                 </div>
               </div>
             </div>

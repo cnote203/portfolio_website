@@ -32,7 +32,7 @@ export default function Home() {
                 <div>
                   <CardTitle className="text-2xl">Christopher Accad</CardTitle>
                   <CardDescription>
-                    Biomedical Mechanical Engineering Student at the University of Ottawa
+                    Mechanical Engineering Graduate at the University of Ottawa
                   </CardDescription>
                 </div>
               </CardHeader>
